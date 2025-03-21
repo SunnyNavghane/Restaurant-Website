@@ -201,10 +201,147 @@ fieldset{
     font-weight: bold;
 }
 
+/* for contect section */
+
+/* .box{
+    background-color: #ff4757;
+    border: 1px solid black;
+    height: 1000px;
+    width: 100%;
+} */
+.contact-box {
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.contact-box h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #333;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 150px;;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e76f51;
+}
+
+/* Contact Info */
+.info-box {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.info-box h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.info-box p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Social Section */
+.social {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+}
+
+.social ul li {
+    margin: 0 10px;
+}
+
+.social ul li a img {
+    width: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social ul li a img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #f4a261;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Clearfix for Container */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 
 /* CSS for Mobile Size or Smaller Screen */
-
+/* 
 @media only screen and (max-width:768px){
     .logo{
         width: 80%;
@@ -257,4 +394,4 @@ fieldset{
     .order{
         width: 100%;
     }
-}
+} */
